@@ -1,1 +1,1 @@
-Este proyecto nace para acercar a los comercios peque;os al mundo digital.
+Este proyecto nace para acercar a los pequeños comercios de barrio al mundo digital, vendiendo sus productos en una plataforma de marketplace.
