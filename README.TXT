@@ -1,0 +1,1 @@
+Este proyecto nace para acercar a los comercios peque;os al mundo digital.
