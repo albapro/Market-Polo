@@ -1,3 +1,27 @@
-h3{
-    font-size: 35px;
+h1 {
+  font-size: ;
+}
+
+main {
+  font-family: "Outfit";
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+h4 {
+  font-weight: 500;
+}
+h5 {
+  font-weight: 400;
+}
+
+main > p {
+    font-size: 0.8em;
+    font-weight: 200;
 }
