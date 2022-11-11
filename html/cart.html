@@ -9,6 +9,46 @@
     <title>Carrito</title>
 </head>
 <body>
+    <h1> Cesta de compra </h1>
+    <section class="tuCompra">
+        <div class="tuCompra1">
+            <h2> Tu compra </h2>
+         <button type="producto"> PRODUCTO </button>
+         <img src="/images/blankets.webp" alt="blankets">
+         <p> Mantas </p>
+        </div> 
+
+
+       <div class="tuCompra2">
+         <button type="price"> PRICE </button>
+          <img class="greySpace1" alt="space">
+          <button type="quantity"> CANTIDAD </button>
+          <div class="greySpacePrice">
+            <p> - </p>
+            <p> + </p>
+
+
+
+        <button type="subtotal"> SUBTOTAL </button>
+        <img class="greySpace2" alt="space">
+       </div>
+
+    </section>
+    <section class="detallesPago">
+        <h2> Detalles de Pago </h2>
+         <label for="numeroTarjeta"> </label>
+         <input type="text" id="numeroTarjeta" name="numeroTarjeta" placeholder="Número de tarjeta">
+         <label for="titularTarjeta"> </label>
+         <input type="text" id="titularTarjeta" name="titularTarjeta" placeholder="Nombre del titular de la tarjeta">
+         <label for="caducidad"><p> </p></label>
+         <input type="text" id="caducidad" name="caducidad" placeholder="Fecha de caducidad&#10;------/------/------">
+
+         <label for="ccv"></label>
+         <input type="text" id="ccv" name="ccv" placeholder="CCV">
+
+         <button type="button"> PROCEDER CON EL PAGO </button>
+
+    </section>
     
 </body>
 </html>

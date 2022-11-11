@@ -12,6 +12,7 @@ header .logo{
     margin: 0 auto ;
 }
 
+
 header h1{
     font-family: 'Outfit', sans-serif;
 }
@@ -52,7 +53,7 @@ main {
   
   
   
-  
+
   
   div.navFooterVerticalRow {
           display: flex;
