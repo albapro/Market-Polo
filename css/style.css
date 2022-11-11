@@ -2,15 +2,6 @@ header{
     background-color: #FFF8F0;
 }
 
-header h1{
-    font-family: 'Outfit', sans-serif;
-}
-
-header h2{
-    font-family: 'Mulish', sans-serif;
-    font-weight: 100;
-}
-
 header .logo{
     display: flex;
     flex-direction: column;
@@ -20,3 +11,59 @@ header .logo{
     height: fit-content;
     margin: 0 auto ;
 }
+
+header h1{
+    font-family: 'Outfit', sans-serif;
+}
+
+header h2{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 100;
+}
+
+main {
+    font-family: "Outfit";
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-weight: 500;
+  }
+  
+  h4 {
+    font-weight: 500;
+  }
+  h5 {
+    font-weight: 400;
+  }
+  
+  main > p {
+    font-size: 0.8em;
+    font-weight: 200;
+  }
+  
+  body {
+    color: rgb(0, 0, 0);
+    background-color: #d4b1b1 
+  }
+  
+  
+  
+  
+  
+  div.navFooterVerticalRow {
+          display: flex;
+        justify-content: center;
+        flex-direction: row;
+        
+  
+        }
+  
+  div.navFooterColHead {
+          display: flex;
+        justify-content: center;
+        flex-direction: row;
+        }
