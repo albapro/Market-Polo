@@ -1,5 +1,18 @@
+/* -----RESET----- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+
+
+body {
+  color: rgb(0, 0, 0);
+  background-color: #FFF8F0 
+}
+
 header{
-    background-color: #FFF8F0;
+  background-color: #FFF8F0;
 }
 
 header .logo{
@@ -9,7 +22,7 @@ header .logo{
     align-items: center;
     width: fit-content;
     height: fit-content;
-    margin: 0 auto ;
+    margin: auto;
 }
 
 
@@ -22,39 +35,82 @@ header h2{
     font-weight: 100;
 }
 
+/*main hecho por Alba y Manu*/
+
 main {
     font-family: "Outfit";
+    align-items: center;
+    align-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 1440px;
   }
   
-  h2 {
+  main h2 {
+    font-size: 48px;
     font-weight: bold;
+    color: #ff7b01;
+    text-align: center;
+    margin-bottom: 20px;
   }
   
-  h3 {
+  main h3 {
+    font-size: 20px;
     font-weight: 500;
+    text-align: center;
   }
   
   h4 {
+    font-size: 1.1em;
     font-weight: 500;
   }
+
   h5 {
     font-weight: 400;
+    font-size: 1em;
   }
   
-  main > p {
-    font-size: 0.8em;
+  main p {
+    font-size: 1em;
     font-weight: 200;
   }
   
-  body {
-    color: rgb(0, 0, 0);
-    background-color: #d4b1b1 
+  
+  .tiendas{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    padding: 35px;
+    column-gap: 60px;
+    justify-content: space-around;
   }
   
-  
-  
+  @media(max-width: 500px){
+    .tiendas{grid-template-columns: 1fr 1fr;}
+  } 
 
+  article{
+    width:260px;
+    height: 344px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+  }
+
+  main section img{
+    width: 217px;
+    }
+
+  #banner-compro-vendo{
+    width: 1211px;
+    height: 348px;
+    transform: translate(3%);
+    margin-left: 5%;
+    margin-right: 5%;
+    ;
+  }
   
+  /*Footer hecho por Denis*/
   div.navFooterVerticalRow {
           display: flex;
         justify-content: center;
