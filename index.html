@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="script.js" />
+    <script src="script.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Mulish&family=Outfit:wght@100;200;400;500;700&display=swap"
       rel="stylesheet"
@@ -39,8 +39,8 @@
         </ul>
         <label for="BARRIO">BARRIO</label>
         <select name="BARRIO" id="BARRIO"></select>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
     <main>
       <h2>Tiendas Nuevas</h2>
@@ -76,9 +76,16 @@
         </article>
       </section>
 
-      <img src="images/imagen 14.png" alt="caju-pic" />
-      <img src="images/imagen 12.png" alt="people-shopping" />
-      <img src="images/imagen 13.png" alt="seeds-foto" />
+      <div class="carousel">
+        <button id="retroceder">Retroceder</button>
+        <div id="imagen"></div>
+        <button id="avanzar">Avanzar</button>
+       
+      </div>
+      <div class="controles">
+        <button id="play">Play</button>
+        <button id="stop" disabled>Stop</button>
+      </div>
 
       <h3>TIENDAS DE ROPA</h3>
 
@@ -114,7 +121,8 @@
 
       <img
         src="images/Banner-main-compro-vendo.svg"
-        alt="banner-compro-vendo-local" id="banner-compro-vendo"
+        alt="banner-compro-vendo-local"
+        id="banner-compro-vendo"
       />
 
       <h3>TIENDAS DE ELECTRONICA</h3>
