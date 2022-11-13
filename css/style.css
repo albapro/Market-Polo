@@ -1,69 +1,135 @@
-header{
-    background-color: #FFF8F0;
+/* -----RESET----- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
 }
 
-header .logo{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    width: fit-content;
-    height: fit-content;
-    margin: 0 auto ;
+body {
+  color: rgb(0, 0, 0);
+  background-color: #fff8f0;
 }
 
-header h1{
-    font-family: 'Outfit', sans-serif;
+header {
+  background-color: #fff8f0;
 }
 
-header h2{
-    font-family: 'Mulish', sans-serif;
-    font-weight: 100;
+header .logo {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
 }
+
+header h1 {
+  font-family: "Outfit", sans-serif;
+}
+
+header h2 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 100;
+}
+
+/*main hecho por Alba y Manu*/
 
 main {
-    font-family: "Outfit";
+  font-family: "Outfit";
+  align-items: center;
+  align-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 1440px;
+}
+
+main h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff7b01;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main h3 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+main p {
+  font-size: 1em;
+  font-weight: 200;
+}
+
+.tiendas {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  padding: 35px;
+  column-gap: 60px;
+  justify-content: space-around;
+}
+
+@media (max-width: 500px) {
+  .tiendas {
+    grid-template-columns: 1fr 1fr;
   }
-  
-  h2 {
-    font-weight: bold;
-  }
-  
-  h3 {
-    font-weight: 500;
-  }
-  
-  h4 {
-    font-weight: 500;
-  }
-  h5 {
-    font-weight: 400;
-  }
-  
-  main > p {
-    font-size: 0.8em;
-    font-weight: 200;
-  }
-  
-  body {
-    color: rgb(0, 0, 0);
-    background-color: #d4b1b1 
-  }
-  
-  
-  
-  
-  
-  div.navFooterVerticalRow {
-          display: flex;
-        justify-content: center;
-        flex-direction: row;
-        
-  
-        }
-  
-  div.navFooterColHead {
-          display: flex;
-        justify-content: center;
-        flex-direction: row;
-        }
+}
+
+article {
+  width: 260px;
+  height: 344px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+main section img {
+  width: 217px;
+}
+
+.carousel {
+  max-width: fit-content;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+#imagen {
+  width: 336px;
+  height: 350px;
+  align-items: ;
+  background-size: cover;
+}
+
+#banner-compro-vendo {
+  width: 1211px;
+  height: 348px;
+  transform: translate(3%);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/*Footer hecho por Denis*/
+div.navFooterVerticalRow {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+div.navFooterColHead {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
