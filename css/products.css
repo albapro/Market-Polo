@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+  font-family: "Outfit";
+}
+
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2%;
+}
+
+.shops {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.Shops div {
+  width: 210px;
+  height: 300px;
+  background-color: white;
+  align-content: center;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+button {
+  margin: 8%;
+  border-radius: 5px;
+  border-color: white;
+  background-color: white;
+  padding: 5px;
+}
+
+section div img {
+  width: 172px;
+  height: 186;
+  align-items: center;
+  margin: 8%;
+}
+
+.Items {
+  display: flex;
+}
+
+.Items button {
+  background-color: #fd841f;
+  border-color: #fd841f;
+  padding: 5px;
+  width: 155px;
+}
+
+article {
+  width: 210px;
+  height: 300px;
+  background-color: white;
+  align-content: center;
+  margin: 15px;
+}

@@ -14,34 +14,46 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="top">
         <div class="logo">
           <h1>MARKET POLO</h1>
           <h2>Tu mercado local</h2>
         </div>
-        <button>
-          <img src="images/user-logo-svg 1.svg" alt="user-icon" />
-        </button>
-        <button>
-          <img src="images/logo carrito 1.svg" alt="cart-icon" /><a
-            href="html/cart.html"
-            >Contact Information</a
-          >
-        </button>
-        <button><img src="images/cora 1.svg" alt="favorite-icon" /></button>
-        <ul>
-          <li type="button">HOGAR</li>
-          <li type="button">ELECTRÓNICA</li>
-          <li type="button">JUGUETERÍA</li>
-          <li type="button">DEPORTES</li>
-          <li type="button">LIBROS</li>
-          <li type="button">ECOLÓGICO</li>
-        </ul>
-        <label for="BARRIO">BARRIO</label>
-        <select name="BARRIO" id="BARRIO"></select>
+        <div class="buttons">
+          <button><img src="/images/user-logo-svg 1.svg" alt="user-icon"></button>
+          <button><a href="html/cart.html"><img src="/images/logo carrito 1.svg" alt="cart-icon"></a></button>
+          <button><img src="/images/cora 1.svg" alt="favorite-icon"></button>
+        </div>
+      </nav>
+      <nav class="bottom">
+        <div class="secciones">
+          <ul>
+            <li><a href="#">HOGAR</a></li>
+            <li><a href="#">ELECTRÓNICA</a></li>
+            <li><a href="#">JUGUETERÍA</a></li>
+            <li><a href="#">DEPORTES</a></li>
+            <li><a href="#">LIBROS</a></li>
+            <li><a href="#">ECOLÓGICO</a></li>
+            </ul>
+        </div>
+        <div class="buscador">
+          <select name="BARRIO" id="BARRIO">
+            <option selected disabled>BARRIO</option>
+            <option value="CIUTAT VELLA">CIUTAT VELLA</option>
+            <option value="GRACIA">GRACIA</option>
+            <option value="HORTA-GUINARDÓ">HORTA-GUINARDÓ</option>
+            <option value="L'EIXAMPLE">L'EIXAMPLE</option>
+            <option value="LES CORTS">LES CORTS</option>
+            <option value="NOU BARRIS">NOU BARRIS</option>
+            <option value="SANT ANDREU">SANT ANDREU</option>
+            <option value="SANT MARTÍ">SANT MARTÍ</option>
+            <option value="SANTS-MONTJUIC">SANTS MONTJUIC</option>
+            <option value="SARRIÁ - SANT GERVASI">SARRIÁ - SANT GERVASI</option>
+          </select>
+          <input type="text" placeholder="Estoy buscando...">
+        </div>
       </nav>
     </header>
-
     <main>
       <h2>Tiendas Nuevas</h2>
       <h3>TIENDAS ECOLÓGICAS</h3>
@@ -76,17 +88,20 @@
         </article>
       </section>
 
+      <!--------------Carrusel de fotos------------>
+
       <div class="carousel">
         <button id="retroceder">Retroceder</button>
         <div id="imagen"></div>
         <button id="avanzar">Avanzar</button>
-       
       </div>
       <div class="controles">
         <button id="play">Play</button>
         <button id="stop" disabled>Stop</button>
       </div>
 
+       <!--------------seccion tiendas de topa------------>
+       
       <h3>TIENDAS DE ROPA</h3>
 
       <section class="tiendas">
@@ -232,8 +247,15 @@
         <a href="" class="nav_a">Gestionar los Cookies</a>
         <a href="" class="nav_a">Terminos y Condiciones Aviso de Copyright</a>
         <a href="" class="nav_a">Imprimir</a>
-        <a href="" class="nav_a">España</a>
-      </section>
+      </li>
+      <li class="nav_last">
+        <a href="" class="nav_a">Espana</a>
+      </li>
+    </ul>
+    
+    
+  </div>
+
     </footer>
   </body>
 </html>
