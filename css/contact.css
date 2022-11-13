@@ -1,0 +1,52 @@
+main {
+    display: flex;
+    align-items: center;
+    gap: 93px;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 1440px;
+    padding: 2%;
+    font-family: "Outfit", bold;
+}
+
+h1{
+    text-align: center;
+
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    background-color: white;
+    /*justify-content: space-evenly;*/
+    width: 650px;
+    height: 680px;
+    font-size: 25px;
+    padding: 50px;
+}
+
+input{
+    width: 200px;
+    border-color: #fff8f0;
+    border-radius: 5px;
+    align-content: center;
+    padding: 4px;
+    fill: white;
+    margin: 15px;
+}
+
+
+main button {
+  align-items: center;
+  width: 360px;
+  height: 60px;
+  background-color: black;
+  color: azure;
+}
+
+.form-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

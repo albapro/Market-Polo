@@ -1,0 +1,38 @@
+body{
+    display: grid;
+  
+}
+
+.tuCompra{
+    display: grid;
+    justify-content: space-between;
+    ;
+    
+}
+
+.greySpace1{
+    background-color: lightgrey;
+}
+
+.greySpace2{
+    background-color: lightgrey;
+}
+.tuCompra img{
+    width: 25vh;
+}
+
+.tuCompra1{
+    display: grid;
+    justify-content:space-around;
+}
+
+.tuCompra2{
+    display: grid;
+    grid-column-start: 2;
+    align-items: center;
+}
+
+.detallesPago{
+    display: grid;
+    justify-content:flex-start;
+}
