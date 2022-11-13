@@ -42,6 +42,7 @@ main {
   margin-left: 5%;
   margin-right: 5%;
   max-width: 1440px;
+  padding: 3%;
 }
 
 main h2 {
@@ -56,6 +57,7 @@ main h3 {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
+  margin-top: 30px;
 }
 
 h4 {
@@ -133,7 +135,6 @@ font-size: 1em;
 #banner-compro-vendo {
   width: 1211px;
   height: 348px;
-  transform: translate(3%);
   margin-left: 5%;
   margin-right: 5%;
 }
