@@ -1,66 +1,67 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0px;
-    font-family: "Outfit";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+  font-family: "Outfit";
 }
 
-main{
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 2%;
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2%;
 }
 
-.shops{
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
+.shops {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
 }
 
-main div {width: 210px;
-        height: 300px;
-        background-color: white;
-        align-content: center;
-        margin: 15px;
-        border-radius: 5px;
+.Shops div {
+  width: 210px;
+  height: 300px;
+  background-color: white;
+  align-content: center;
+  margin: 15px;
+  border-radius: 5px;
 }
 
-button{
-    border-radius: 5px;
-    border-color: white;
-    background-color: white;
-    padding: 5px;
+button {
+  margin: 8%;
+  border-radius: 5px;
+  border-color: white;
+  background-color: white;
+  padding: 5px;
 }
 
-section div img{
-    width: 172px;
-    height: 186;
+section div img {
+  width: 172px;
+  height: 186;
+  align-items: center;
+  margin: 8%;
+}
+
+.Items {
+  display: flex;
+}
+
+.Items button {
+  background-color: #fd841f;
+  border-color: #fd841f;
+  padding: 5px;
+  width: 155px;
+}
+
+article {
+  width: 210px;
+  height: 300px;
+  background-color: white;
+  align-content: center;
+  margin: 15px;
 }
 
 
-.Items{
-   display: flex;
-    
-}
-
-.Items button{
-    background-color: #FD841F;
-    border-color: #FD841F;
-    padding: 5px;
-    width: 155px;
-}
-
-article{
-        width: 210px;
-        height: 300px;
-        background-color: white;
-        align-content: center;
-        margin: 15px;
-    }
-
-
-
-    /* Container needed to position the button. Adjust the width as needed */
+/* Container needed to position the button. Adjust the width as needed */
 .container {
   position: relative;
   width: 50%;
@@ -75,7 +76,7 @@ article{
 /* Style the button and place it in the middle of the container/image */
 .container .btn {
   position: absolute;
-  top: 85%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
