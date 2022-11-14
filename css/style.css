@@ -266,5 +266,10 @@ footer p {
 @media (max-width: 500px) {
   .tiendas {
     grid-template-columns: 1fr 1fr;
+    align-items: center;
   }
-}
+  .footer{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
