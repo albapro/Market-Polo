@@ -4,36 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="/Market-Polo/css/style.css">
+    <link rel="stylesheet" href="/Market-Polo/css/cart.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish&family=Outfit:wght@100;200;400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Carrito</title>
 </head>
+
 <body>
     <h1> Cesta de compra </h1>
     <section class="tuCompra">
         <div class="tuCompra1">
-            <h2> Tu compra </h2>
-         <button type="producto"> PRODUCTO </button>
-         <img src="images/blankets.webp" alt="blankets">
-         <p> Mantas </p>
+        <h2> Tu compra </h2>
+        <button type="producto"> PRODUCTO </button>
+        <img src="/Market-Polo/images/blankets.webp" alt="blankets">
         </div> 
 
 
        <div class="tuCompra2">
-         <button type="price"> PRICE </button>
-          <img class="greySpace1" alt="space">
-          <button type="quantity"> CANTIDAD </button>
-          <div class="greySpacePrice">
-            <p> - </p>
-            <p> + </p>
-
-
-
+        <button type="price"> PRICE </button>
+        <button type="quantity"> CANTIDAD </button>
         <button type="subtotal"> SUBTOTAL </button>
-        <img class="greySpace2" alt="space">
        </div>
-
     </section>
+
     <section class="detallesPago">
         <h2> Detalles de Pago </h2>
          <label for="numeroTarjeta"> </label>
@@ -41,12 +37,11 @@
          <label for="titularTarjeta"> </label>
          <input type="text" id="titularTarjeta" name="titularTarjeta" placeholder="Nombre del titular de la tarjeta">
          <label for="caducidad"><p> </p></label>
-         <input type="text" id="caducidad" name="caducidad" placeholder="Fecha de caducidad&#10;------/------/------">
-
+         <input type="text" id="caducidad" name="caducidad" placeholder="Fecha de caducidad ------/------/------">
          <label for="ccv"></label>
          <input type="text" id="ccv" name="ccv" placeholder="CCV">
-
-         <button type="button"> PROCEDER CON EL PAGO </button>
+        <br>
+         <button type="button" id="payment-button"> PROCEDER CON EL PAGO </button>
 
     </section>
     
