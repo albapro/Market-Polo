@@ -1,16 +1,19 @@
 body{
     font-family: "Mulish";
-    display: grid;
-  
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 1440px;
 }
 
 h1{
     font-family: "Outfit";
     text-align: center;
 }
+
 .tuCompra{
     display: grid;
     justify-content: space-between;
+    gap: 200px;
  }
 
  button{
@@ -18,6 +21,15 @@ h1{
     height: 20px;
     padding: 2px;
 
+ }
+ 
+ #payment-button{
+    font-family: "Mulish", bold;
+    width: 300px;
+    background-color: #DD6464;
+    color: white;
+    border-color: #DD6464;
+    padding: 5px;
  }
 /*.greySpace1{
     background-color: lightgrey;
@@ -28,8 +40,9 @@ h1{
 }*/
 
 .tuCompra img{
-    width: 25vh;
-    margin: 44px    ;
+    align-items:flex-start;
+    width: 40vh;
+    margin: 44px;
 }
 
 .tuCompra1{
@@ -46,4 +59,10 @@ h1{
 .detallesPago{
     display: grid;
     justify-content:flex-start;
+}
+
+input{
+    width: 500px;
+    background-color: #EFEEEE;
+    margin-top: 30px;
 }
