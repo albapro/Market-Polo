@@ -1,24 +1,45 @@
-body{
-    font-family: "Mulish";
-    display: grid;
-  
+body {
+  font-family: "Mulish";
+  margin: 5%;
+  align-items: center;
+  max-width: 1280px;
 }
 
-h1{
-    font-family: "Outfit";
-    text-align: center;
+h1 {
+  font-family: "Outfit";
+  text-align: center;
+  margin-bottom: 40px;
 }
-.tuCompra{
-    display: grid;
-    justify-content: space-between;
- }
 
- button{
-    width: 100px;
-    height: 20px;
-    padding: 2px;
+.tuCompra {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  justify-content: space-between;
+  gap: 200px;
+  background-color: white;
+}
 
- }
+.tuCompra img {
+  width: 40vh;
+  margin-top: 44px;
+}
+
+button {
+  width: 100px;
+  height: 20px;
+  padding: 2px;
+}
+
+#payment-button {
+  font-family: "Mulish", bold;
+  width: 300px;
+  background-color: #dd6464;
+  color: white;
+  border-color: #dd6464;
+  padding: 5px;
+  margin: 15px;
+  text-align: center;
+}
 /*.greySpace1{
     background-color: lightgrey;
 }
@@ -27,23 +48,26 @@ h1{
     background-color: lightgrey;
 }*/
 
-.tuCompra img{
-    width: 25vh;
-    margin: 44px    ;
+.tuCompra1 {
+  display: grid;
+  justify-content: space-around;
 }
 
-.tuCompra1{
-    display: grid;
-    justify-content:space-around;
+.tuCompra2 {
+  display: grid;
+  grid-template-rows: auto;
+  align-items: center;
 }
 
-.tuCompra2{
-    display: grid;
-    grid-column-start: 2;
-    align-items: center;
+.detallesPago {
+  display: grid;
+  justify-content: flex-start;
+  background-color: white;
+  padding: 100px;
 }
 
-.detallesPago{
-    display: grid;
-    justify-content:flex-start;
+input {
+  width: 500px;
+  background-color: #efeeee;
+  margin-top: 30px;
 }
