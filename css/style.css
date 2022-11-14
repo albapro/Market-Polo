@@ -234,15 +234,6 @@ font-size: 1em;
   
 }
 
-.footer1 {
-  font-family: "Outfit";
-  padding-bottom: 70px;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 
 footer img {
   padding-top: 10px;
@@ -255,7 +246,22 @@ footer h6 {
   padding-bottom: 10px;
 }
 
+.footer1 {
+  font-family: "Outfit";
+  padding-bottom: 70px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.suscribirse {
+  border: black;
+}
+
+footer p {
+  margin-left: 40px;
+}
 /* ---------MEDIA QUERIES--------- */
 
 @media (max-width: 500px) {
