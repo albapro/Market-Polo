@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Market-Polo/css/contact.css" />
     <link rel="stylesheet" href="/Market-Polo/css/style.css" />
+    <link rel="stylesheet" href="/Market-Polo/css/contact.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Mulish&family=Outfit:wght@100;200;400;500;700&display=swap"
       rel="stylesheet"
@@ -15,31 +15,44 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="top">
         <div class="logo">
           <h1>MARKET POLO</h1>
           <h2>Tu mercado local</h2>
         </div>
-        <button>
-          <img src="images/user-logo-svg 1.svg" alt="user-icon" />
-        </button>
-        <button>
-          <img src="images/logo carrito 1.svg" alt="cart-icon" /><a
-            href="html/cart.html"
-            >Contact Information</a
-          >
-        </button>
-        <button><img src="images/cora 1.svg" alt="favorite-icon" /></button>
-        <ul>
-          <li type="button">HOGAR</li>
-          <li type="button">ELECTRÓNICA</li>
-          <li type="button">JUGUETERÍA</li>
-          <li type="button">DEPORTES</li>
-          <li type="button">LIBROS</li>
-          <li type="button">ECOLÓGICO</li>
-        </ul>
-        <label for="BARRIO">BARRIO</label>
-        <select name="BARRIO" id="BARRIO"></select>
+        <div class="buttons">
+          <button><img src="/images/user-logo-svg 1.svg" alt="user-icon"></button>
+          <button><a href="cart.html"><img src="/images/logo carrito 1.svg" alt="cart-icon"></a></button>
+          <button><img src="/images/cora 1.svg" alt="favorite-icon"></button>
+        </div>
+      </nav>
+      <nav class="bottom">
+        <div class="secciones">
+          <ul>
+            <li><a href="#">HOGAR</a></li>
+            <li><a href="#">ELECTRÓNICA</a></li>
+            <li><a href="#">JUGUETERÍA</a></li>
+            <li><a href="#">DEPORTES</a></li>
+            <li><a href="#">LIBROS</a></li>
+            <li><a href="#">ECOLÓGICO</a></li>
+            </ul>
+        </div>
+        <div class="buscador">
+          <select name="BARRIO" id="BARRIO">
+            <option selected disabled>BARRIO</option>
+            <option value="CIUTAT VELLA">CIUTAT VELLA</option>
+            <option value="GRACIA">GRACIA</option>
+            <option value="HORTA-GUINARDÓ">HORTA-GUINARDÓ</option>
+            <option value="L'EIXAMPLE">L'EIXAMPLE</option>
+            <option value="LES CORTS">LES CORTS</option>
+            <option value="NOU BARRIS">NOU BARRIS</option>
+            <option value="SANT ANDREU">SANT ANDREU</option>
+            <option value="SANT MARTÍ">SANT MARTÍ</option>
+            <option value="SANTS-MONTJUIC">SANTS MONTJUIC</option>
+            <option value="SARRIÁ - SANT GERVASI">SARRIÁ - SANT GERVASI</option>
+          </select>
+          <input type="text" placeholder="Estoy buscando...">
+        </div>
       </nav>
     </header>
 
