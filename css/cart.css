@@ -1,24 +1,35 @@
 body{
+    font-family: "Mulish";
     display: grid;
   
 }
 
+h1{
+    font-family: "Outfit";
+    text-align: center;
+}
 .tuCompra{
     display: grid;
     justify-content: space-between;
-    ;
-    
-}
+ }
 
-.greySpace1{
+ button{
+    width: 100px;
+    height: 20px;
+    padding: 2px;
+
+ }
+/*.greySpace1{
     background-color: lightgrey;
 }
 
 .greySpace2{
     background-color: lightgrey;
-}
+}*/
+
 .tuCompra img{
     width: 25vh;
+    margin: 44px    ;
 }
 
 .tuCompra1{

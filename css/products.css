@@ -52,6 +52,11 @@ section div img {
   width: 155px;
 }
 
+.Items img{
+    width: 181px;
+    
+}
+
 article {
   width: 210px;
   height: 300px;
